@@ -25,7 +25,7 @@ SECRET_KEY = '%&uz#*h73ptx9^3ybxoh8vf18=l1j-bphkol6_pg=x&9y1-qo+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['+']  # Here I write the domains.com I want to allow in my backend
+ALLOWED_HOSTS = ['*']  # Here I write the domains.com I want to allow in my backend
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'authapp'
 ]
 
 MIDDLEWARE = [
