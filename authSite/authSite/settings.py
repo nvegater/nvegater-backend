@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authapp',
     'rest_framework',
+    'djoser'
 ]
 
 MIDDLEWARE = [
