@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'authSite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
+        'NAME': 'django_vegan_stock',
         'USER': 'admin',
         'PASSWORD': 'admin',
         'HOST': 'localhost',
