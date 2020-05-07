@@ -77,8 +77,8 @@ class Price(models.Model):
     price_currency = models.CharField(max_length=30, choices=[(tag, tag.value) for tag in Currencies], null=False)
     unit = models.CharField(max_length=30, choices=[(tag, tag.value) for tag in Units], null=False)
     price_per_unit = models.FloatField(null=True)
-    incoterm = models.CharField(max_length=30, choices=[(tag, tag.value) for tag in Incoterms], null=False)
-    packaging = models.CharField(max_length=30, choices=[(tag, tag.value) for tag in Packaging], null=False)
+    incoterm = models.CharField(max_length=30, choices=[(tag, tag.value) for tag in Incoterms], null=True)
+    packaging = models.CharField(max_length=30, choices=[(tag, tag.value) for tag in Packaging], null=True)
     prime_cost = models.FloatField(null=True)
     prime_cost_currency = models.CharField(max_length=30, choices=[(tag, tag.value) for tag in Currencies], null=False,
                                            default=Currencies.PLN)
