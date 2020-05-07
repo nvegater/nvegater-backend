@@ -88,7 +88,7 @@ class Provider(models.Model):
     #  Provider comes from only one country.
     date_created = models.DateTimeField(default=datetime.now)
     provider_name = models.CharField(max_length=30, null=False)
-    country_id = models.ForeignKey(Country, on_delete=models.CASCADE, null=True)
+    country_id = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True)
     sold = models.BooleanField(null=True)
     provider_type = models.CharField(max_length=30, choices=[(tag, tag.value) for tag in ProviderType], null=False)
     # b = Provider(provider_name='X', provider_type=ProviderType.PROD)
@@ -122,11 +122,11 @@ class Provider(models.Model):
 
 class Ingredient(models.Model):
     # an unique ingredient that comes from ONLY one: provider, country. Belongs to ONLY one category
-    category_id = models.ForeignKey(Category, on_delete=models.CASCADE, null=True)
+    category_id = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
     date_created = models.DateTimeField(default=datetime.now)
     stock_id = models.ForeignKey(Stock, on_delete=models.CASCADE, null=True)
     ingredient_name = models.CharField(max_length=30, null=False, unique=True)
-    country_id = models.ForeignKey(Country, on_delete=models.CASCADE, null=True)
+    country_id = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True)
     provider_id = models.ForeignKey(Provider, on_delete=models.CASCADE, null=True)
     ingredient_shelf_life_months = models.IntegerField(null=True)
 
