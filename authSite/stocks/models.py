@@ -129,12 +129,13 @@ class Ingredient(models.Model):
     country_id = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True)
     provider_id = models.ForeignKey(Provider, on_delete=models.CASCADE, null=True)
     ingredient_shelf_life_months = models.IntegerField(null=True)
+    prices = models.ManyToManyField(Price)
 
     def __str__(self):
         return self.ingredient_name
 
-
-class IngredientPrice(models.Model):
-    # Unique ingredient can have multiple prices. Unique price can belong to multiple ingredients.
-    ingredient_id = models.ForeignKey(Ingredient, on_delete=models.CASCADE, null=True)
-    price_id = models.ForeignKey(Price, on_delete=models.CASCADE, null=True)
+#  All of this not neccesary, I can use just Manyto Many
+# class IngredientPrice(models.Model):
+#     # Unique ingredient can have multiple prices. Unique price can belong to multiple ingredients.
+#     ingredient_id = models.ForeignKey(Ingredient, on_delete=models.CASCADE, null=True)
+#     price_id = models.ForeignKey(Price, on_delete=models.CASCADE, null=True)
