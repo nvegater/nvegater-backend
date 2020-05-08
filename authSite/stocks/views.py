@@ -1,5 +1,5 @@
 import csv, io, re
-
+from django.core import serializers
 from django.contrib import messages
 from django.contrib.auth.decorators import permission_required
 from django.shortcuts import render
@@ -8,14 +8,12 @@ from stocks.models import Stock, Ingredient, Country, NutrionalValue, Categories
     ProviderType
 
 
-def stock_all(request):
-    all_stocks = Stock.objects.all()
-    if not all_stocks:
-        return HttpResponseRedirect("/empty-stocks/")
-    all_ingredients = Ingredient.objects.all()
-    if not all_ingredients:
+def ingredients_all(request):
+    ingredients_list = serializers.serialize('json', Ingredient.objects.all(),
+                                             fields=('ingredient_name', 'category_type'))
+    if not ingredients_list:
         return HttpResponseRedirect("/empty-ingredients/")
-    return render(request, {'stocks': all_stocks, 'ingredients': all_ingredients})
+    return render(request, ingredients_list)
 
 
 @permission_required('admin.can_add_log_entry')  # only admin and super user
@@ -37,6 +35,7 @@ def csv_upload(request):
     io_string = io.StringIO(data_set)
     # Skip first line (header)
     next(io_string)
+    # TODO Maybe use serializer instead to parse file to models
     for column in csv.reader(io_string, delimiter=';'):
         # "_," Throwaway variable to save without calling save()
         new_country_name = column[2] if column[2] else 'Country name not provided'
