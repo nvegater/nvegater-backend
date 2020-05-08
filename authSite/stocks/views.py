@@ -4,7 +4,6 @@ from django.contrib import messages
 from django.contrib.auth.decorators import permission_required
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
-import uuid
 from stocks.models import Stock, Ingredient, Country, NutrionalValue, Categories, Price, Currencies, Provider, \
     ProviderType
 
@@ -56,7 +55,7 @@ def csv_upload(request):
         # TODO Better enums: https://gist.github.com/treyhunner/fd2dc64efb50a147e0a29746862fe8fc
         category_type_csv = ''
         prefix_incoterm_csv = column[4][:2]
-        if prefix_incoterm_csv == 'fru':
+        if prefix_incoterm_csv == 'fr':
             category_type_csv = Categories.FRUIT
         if prefix_incoterm_csv == 'pl':
             category_type_csv = Categories.MILK_SUBSTITUTE
@@ -66,7 +65,7 @@ def csv_upload(request):
             category_type_csv = Categories.OIL
         if prefix_incoterm_csv == 'sw':
             category_type_csv = Categories.SWEETENER
-        if prefix_incoterm_csv == 'pro':
+        if prefix_incoterm_csv == 'pr':
             category_type_csv = Categories.PROTEIN
 
         country_id_for_ingredient = Country.objects.get(country_name=new_country_name).id
