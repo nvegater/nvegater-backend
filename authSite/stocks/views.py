@@ -4,8 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import permission_required
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
-from stocks.models import Stock, Ingredient, Country, NutrionalValue, Categories, Price, Currencies, Provider, \
-    ProviderType
+from .models import Stock, Ingredient, Country, NutrionalValue, Categories, Price, Currencies, Provider, ProviderType
 
 
 def ingredients_all(request):

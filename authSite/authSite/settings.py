@@ -41,7 +41,13 @@ INSTALLED_APPS = [
     'djoser',
     'corsheaders',
     'stocks',
+    'graphene_django',
+
 ]
+
+GRAPHENE = {
+    'SCHEMA': 'stocks.schema.schema'  # Where your Graphene schema lives
+}
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
