@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f39fac0b-51ec-457e-8880-f1001556b305" name="Default Changelist" comment="added idea folder to gitignore">
+      <change afterPath="$PROJECT_DIR$/authSite/stocks/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api-auth-django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api-auth-django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authSite/authSite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/authSite/authSite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authSite/stocks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authSite/stocks/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authSite/stocks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authSite/stocks/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bXHVK1a9wA6KI327KWOUfCBeqN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.settings">
+    <configuration name="asgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api-auth-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/authSite/authSite" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/authSite/authSite/asgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api-auth-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/authSite/authSite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/authSite/authSite/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.asgi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f39fac0b-51ec-457e-8880-f1001556b305" name="Default Changelist" comment="" />
+      <created>1588771540751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588771540751</updated>
+      <workItem from="1588771541876" duration="4939000" />
+      <workItem from="1588796948726" duration="371000" />
+      <workItem from="1588797322586" duration="37882000" />
+      <workItem from="1589739184809" duration="3103000" />
+      <workItem from="1589902462278" duration="1252000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added readme">
+      <created>1588774625791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588774625791</updated>
+    </task>
+    <task id="LOCAL-00002" summary="connected to local postgres and added idea files to gitignore">
+      <created>1588795842961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588795842961</updated>
+    </task>
+    <task id="LOCAL-00003" summary="started new stocks app">
+      <created>1588797237566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588797237566</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added stock model, app, and urls. empty view for now.">
+      <created>1588798051866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588798051866</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added more complex models to a new DB. retrieve re-direct when objects not available">
+      <created>1588800670373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588800670373</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created vegan stock model">
+      <created>1588854903192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588854903192</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated model with excel data">
+      <created>1588860143458</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588860143458</updated>
+    </task>
+    <task id="LOCAL-00008" summary="made incoterm and packaging nullable">
+      <created>1588860336250</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588860336250</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changed on_delete">
+      <created>1588860611870</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588860611870</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changed way of writing many to many table.">
+      <created>1588860838578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588860838578</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changed model and created service for uploading data from csv">
+      <created>1588956645686</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588956645686</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated Typo in Categories and deleted unused migration file. Restarted migration scripts.">
+      <created>1588957822619</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588957822619</updated>
+    </task>
+    <task id="LOCAL-00013" summary="simplified all ingredients view">
+      <created>1588958761242</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588958761242</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added idea folder to gitignore">
+      <created>1589902625664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589902625664</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added readme" />
+    <MESSAGE value="connected to local postgres and added idea files to gitignore" />
+    <MESSAGE value="started new stocks app" />
+    <MESSAGE value="Added stock model, app, and urls. empty view for now." />
+    <MESSAGE value="Added more complex models to a new DB. retrieve re-direct when objects not available" />
+    <MESSAGE value="created vegan stock model" />
+    <MESSAGE value="updated model with excel data" />
+    <MESSAGE value="made incoterm and packaging nullable" />
+    <MESSAGE value="changed on_delete" />
+    <MESSAGE value="changed way of writing many to many table." />
+    <MESSAGE value="Changed model and created service for uploading data from csv" />
+    <MESSAGE value="updated Typo in Categories and deleted unused migration file. Restarted migration scripts." />
+    <MESSAGE value="simplified all ingredients view" />
+    <MESSAGE value="added idea folder to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added idea folder to gitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588771580151">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588771580151" />
+    <state x="100" y="123" width="760" height="857" key="DiffContextDialog" timestamp="1589042276455">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="100" y="123" width="760" height="857" key="DiffContextDialog/0.23.1920.1057/0.1080.1920.1200@0.23.1920.1057" timestamp="1589042276455" />
+    <state x="100" y="123" width="760" height="857" key="DiffContextDialog/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588800748560" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1588797319399">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588797319399" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1588797319398">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588797319398" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1588797319398">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588797319398" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1588797319398">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588797319398" />
+    <state x="705" y="260" key="RollbackChangesDialog" timestamp="1589902584269">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="705" y="260" key="RollbackChangesDialog/0.23.1920.1057/0.1080.1920.1200@0.23.1920.1057" timestamp="1589902584269" />
+    <state x="705" y="260" key="RollbackChangesDialog/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588797198847" />
+    <state x="429" y="197" key="SettingsEditor" timestamp="1589903582209">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="429" y="197" key="SettingsEditor/0.23.1920.1057/0.1080.1920.1200@0.23.1920.1057" timestamp="1589903582209" />
+    <state x="429" y="197" key="SettingsEditor/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588797411131" />
+    <state x="1040" y="291" key="Vcs.Push.Dialog.v2" timestamp="1588800679486">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1040" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588800679486" />
+    <state x="201" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588841822074">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="201" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588841822074" />
+    <state x="186" y="187" width="588" height="729" key="find.popup" timestamp="1589902862204">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="186" y="187" width="588" height="729" key="find.popup/0.23.1920.1057/0.1080.1920.1200@0.23.1920.1057" timestamp="1589902862204" />
+    <state x="186" y="187" width="588" height="729" key="find.popup/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588847883200" />
+    <state x="625" y="272" width="670" height="676" key="search.everywhere.popup" timestamp="1589903564040">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="272" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/0.1080.1920.1200@0.23.1920.1057" timestamp="1589903564040" />
+    <state x="625" y="272" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/1920.-120.1920.1200@0.23.1920.1057" timestamp="1588860687160" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nvegater_backend$asgi.coverage" NAME="asgi Coverage Results" MODIFIED="1588796967844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/authSite/authSite" />
+  </component>
+</project>
