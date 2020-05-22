@@ -22,5 +22,8 @@ class Query(ObjectType):
         return None
 
     @staticmethod
-    def resolve_movies(info, **kwargs):
+    def resolve_countries(self, info, **kwargs):
         return Country.objects.all()
+
+
+schema = graphene.Schema(query=Query)
