@@ -9,7 +9,7 @@ class CountryType(DjangoObjectType):
         model = Country
 
 
-class Query(ObjectType):
+class Query(object):
     country = graphene.Field(CountryType, id=graphene.Int())
     countries = graphene.List(CountryType)
 
@@ -25,5 +25,3 @@ class Query(ObjectType):
     def resolve_countries(self, info, **kwargs):
         return Country.objects.all()
 
-
-schema = graphene.Schema(query=Query)

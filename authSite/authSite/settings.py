@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 ]
 
 GRAPHENE = {
-    'SCHEMA': 'stocks.schema.schema'  # Where your Graphene schema lives
+    'SCHEMA': 'authSite.schema.schema'  # Where your Graphene schema lives
 }
 
 MIDDLEWARE = [
